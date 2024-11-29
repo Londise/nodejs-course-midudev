@@ -19,3 +19,4 @@ fs.readFile('./archivo2.txt', 'utf-8')
     .then(text => {
         console.log('segundo texto: ', text)
     })
+
