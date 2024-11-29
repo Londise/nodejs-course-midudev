@@ -1,5 +1,5 @@
 <h3>About</h3>
-Here i store some scripts i did for learning purposes during my journey on midudev Node.js course, i found the course very interesting and learned a lot about how interesting is Node.js
+Here i store some scripts i did for learning purposes during my journey on Midudev Node.js course, i found the course very interesting and learned a lot about how interesting is Node.js
 and how to implement the different functionalities that it has, in this repository, you will found scripts consuming the different native modules that Node.js has to offer, applied in
 CommonJs and also ES Modules, working with .js, .mjs and .cjs formats.
 
