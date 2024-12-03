@@ -17,13 +17,20 @@ console.log('Haciendo cosas mientras se lee el segundo archivo (no se puede)')
 // MANERA ASÍNCRONA
 
 console.log('Leyendo el primer archivo')
-fs.readFile('./archivo.txt', 'utf-8', (err, text) => {
-    console.log('primer texto: ', text)
+fs.readFile('./simple/scripts/archivo.txt', 'utf-8', (err, text) => {
+  console.log('primer texto: ', text)
+  if (err) {
+    console.error(`Hubo un error al leer el archivo: ${err}`)
+  }
 })
 
 console.log('------> Haciendo cosas mientras se lee el primer archivo')
 
 console.log('Leyendo el segundo archivo')
-fs.readFile('./archivo2.txt', 'utf-8', (err, text) => {
-    console.log('segundo texto: ', text)
+fs.readFile('./simple/scripts/archivo2.txt', 'utf-8', (err, text) => {
+  console.log('segundo texto: ', text)
+
+  if (err) {
+    console.error(`Hubo un error al leer el archivo: ${err}`)
+  }
 })

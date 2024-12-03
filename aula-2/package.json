@@ -1,0 +1,13 @@
+{
+  "name": "aula-2",
+  "version": "1.0.0",
+  "main": "2.routing.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev:1": "node --watch 3.express.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
